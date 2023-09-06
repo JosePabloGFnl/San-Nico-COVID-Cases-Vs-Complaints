@@ -35,3 +35,29 @@ What do we mean by **weather phenomena**?  For this category you might want to c
 
 ### Example
 Looking for an example? Here's what our course assistant put together for the **Ann Arbor, MI, USA** area using **sports and athletics** as the topic. [Example Solution File](./readonly/Assignment4_example.pdf)
+
+## Previous configurations
+
+The script works with the following versions:
+- python `3.11.5`
+- pandas `2.1.0`
+- numpy `1.25.2`
+- matplotlib `3.7.2`
+- python-dotenv `1.0.0`
+
+### Installing the libraries
+
+To install the necessary libraries, run the following code in a Python executer
+``` CMD Commands
+pip install python-dotenv
+```
+
+To view the version of your libraries, run the following:
+``` CMD Commands
+pip show python-dotenv
+```
+
+Another alternate method to view all of the installed libraries if the following:
+``` CMD Commands
+pip show list
+```
