@@ -74,8 +74,8 @@ The `.env` file needs to have the following environmental variables for the scri
 
 - `covid_reports`: File obtained from municity database with COVID-19 cases reported during a certain period of time.
 - `city_complaints`: File obtained from municity database with affected legal goods reported during a certain period of time.
-- `start_date`: Date where you wish for the period to be calculated from
-- `end_date`: Date where you wish for the period to be calculated to
+- `start_date`: Date where you wish for the period to be calculated from in format `YYYY-MM-DD`
+- `end_date`: Date where you wish for the period to be calculated to in format `YYYY-MM-DD`
 
 Your `.env` file should look like this:
 
