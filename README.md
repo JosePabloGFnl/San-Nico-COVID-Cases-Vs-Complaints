@@ -38,14 +38,20 @@ Looking for an example? Here's what our course assistant put together for the **
 
 ## Previous configurations
 
+In order to run this script, you will need:
+
+- The necessary libraries installed
+- Create .env file with the necessary environmental variables
+- Obtain input files
+
+### Installing the libraries
+
 The script works with the following versions:
 - python `3.11.5`
 - pandas `2.1.0`
 - numpy `1.25.2`
 - matplotlib `3.7.2`
 - python-dotenv `1.0.0`
-
-### Installing the libraries
 
 To install the necessary libraries, run the following code in a Python executer
 ``` CMD Commands
@@ -60,4 +66,22 @@ pip show python-dotenv
 Another alternate method to view all of the installed libraries if the following:
 ``` CMD Commands
 pip show list
+```
+
+### Environmental variables
+
+The `.env` file needs to have the following environmental variables for the script to work properly:
+
+- `covid_reports`: File obtained from municity database with COVID-19 cases reported during a certain period of time.
+- `city_complaints`: File obtained from municity database with affected legal goods reported during a certain period of time.
+- `start_date`: Date where you wish for the period to be calculated from
+- `end_date`: Date where you wish for the period to be calculated to
+
+Your `.env` file should look like this:
+
+``` textplain
+covid_reports='Casos-positivos-diarios-en-San-Nicolas-de-los-Garza-Promedio-movil-de-7-dias.csv'
+city_complaints='Denuncias-segun-bien-afectado-en-San-Nicolas-de-los-GarzaClic-en-el-grafico-para-seleccionar.csv'
+start_date = '2020-02-01'
+end_date = '2021-08-01'
 ```
