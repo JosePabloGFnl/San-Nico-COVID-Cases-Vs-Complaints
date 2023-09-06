@@ -85,3 +85,10 @@ city_complaints='Denuncias-segun-bien-afectado-en-San-Nicolas-de-los-GarzaClic-e
 start_date = '2020-02-01'
 end_date = '2021-08-01'
 ```
+
+### Input data
+
+The input data that I used is from the official San Nicolas de los Garza, Nuevo Leon government database. This is a database that is updated regularly and is completley free to use. Here are the links for the datasets that I used:
+
+- `covid_reports`: https://www.economia.gob.mx/datamexico/es/profile/geo/san-nicolas-de-los-garza#covid19-evolucion
+- `city_complaints`: https://www.economia.gob.mx/datamexico/es/profile/geo/san-nicolas-de-los-garza#seguridad-publica-denuncias
