@@ -76,6 +76,7 @@ The `.env` file needs to have the following environmental variables for the scri
 - `city_complaints`: File obtained from municity database with affected legal goods reported during a certain period of time.
 - `start_date`: Date where you wish for the period to be calculated from in format `YYYY-MM-DD`
 - `end_date`: Date where you wish for the period to be calculated to in format `YYYY-MM-DD`
+- `Municipality`: City where you wish to make the analysis on. In this case, we're using San Nicolas.
 
 Your `.env` file should look like this:
 
@@ -84,6 +85,7 @@ covid_reports='Casos-positivos-diarios-en-San-Nicolas-de-los-Garza-Promedio-movi
 city_complaints='Denuncias-segun-bien-afectado-en-San-Nicolas-de-los-GarzaClic-en-el-grafico-para-seleccionar.csv'
 start_date = '2020-02-01'
 end_date = '2021-08-01'
+Municipality = 'San Nicolás de los Garza'
 ```
 
 ### Input data
